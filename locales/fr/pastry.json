@@ -1,0 +1,10 @@
+{
+  "cake": "Nice Cake",
+  "description": "<strong>love</strong> cake",
+  "interpol": "que {{is}} that???",
+  "plural": {
+    "apple_zero": "No Apple HAHAHA",
+    "apple_one": "One Apple HAHAHA",
+    "apple_other": "{{count}} APPLES HAHAHAHAHA"
+  }
+}

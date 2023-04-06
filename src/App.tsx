@@ -15,14 +15,16 @@ interface Blog {
 const lngs: Lngs = {
   en: { nativeName: "English" },
   de: { nativeName: "Deutsch" },
+  fr: { nativeName: "France" },
 };
 
 function App() {
-  const { t, i18n } = useTranslation(["pastry", "blog"]);
+  const { t, i18n } = useTranslation();
   const [apple, setApple] = useState(0);
 
   const posts = t("blog:posts", { returnObjects: true }) as Blog[];
   console.log(posts);
+  console.log(lngs);
   return (
     <div className="App">
       <div>
@@ -45,7 +47,7 @@ function App() {
       <h1>{t("pastry:plural.apple", { count: apple })}</h1>
       <button onClick={() => setApple(apple + 1)}>Countula</button>
 
-      <div id="blog">
+      <div>
         {posts.map((post) => (
           <div key={post.title} className="card">
             <h3>{post.title}</h3>

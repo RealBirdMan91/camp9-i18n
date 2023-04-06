@@ -12,6 +12,19 @@
     ]
   },
 
+  "blog_fr": {
+    "posts": [
+      {
+        "title": "que englisch title yaaaaiii =)",
+        "body": "stuff is working? <strong>woaaah</strong>"
+      },
+      {
+        "title": "zwei Post Englisch",
+        "body": "stuff2 auch in englisch"
+      }
+    ]
+  },
+
   "blog_de": {
     "posts": [
       {

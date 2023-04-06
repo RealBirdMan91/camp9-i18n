@@ -5,6 +5,7 @@ import Backend from "i18next-http-backend";
 
 const backend = new Backend(null, {
   loadPath: (lngs, namespaces) => {
+    console.log(lngs);
     const [lng] = lngs;
     const [ns] = namespaces;
 

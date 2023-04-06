@@ -2,6 +2,7 @@
   "cake": "Lecker Kuchen",
   "description": "Kuchen is <strong>beste</strong>",
   "interpol": "was {{is}} das???",
+  "sugar": "something",
   "plural": {
     "apple_zero": "Kein Apfel HAHAHA",
     "apple_one": "Ein Apfel HAHAHA",
