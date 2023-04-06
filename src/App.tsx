@@ -26,7 +26,7 @@ function App() {
           </button>
         ))}
       </div>
-      <h1>{t("cake")}</h1>
+      <h1>{t("pastry:cake")}</h1>
       <p>
         <Trans i18nKey="pastry:description">Default value</Trans>
       </p>
